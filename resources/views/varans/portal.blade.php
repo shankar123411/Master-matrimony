@@ -1657,8 +1657,8 @@
     <!-- Executive Header Navigation -->
     <header class="header-nav">
         <div class="brand-container">
-            <div class="brand-symbol" style="background: transparent; box-shadow: none; width: 48px; height: 48px; padding: 0;">
-                <img src="{{ asset('images/logo.svg') }}" alt="Master Matrimony Logo" onerror="this.src='/images/logo.svg'" style="width: 48px; height: 48px; object-fit: contain; border-radius: 50%; display: block;">
+            <div class="brand-symbol" style="background: transparent; box-shadow: none; width: 50px; height: 50px; padding: 0;">
+                <img src="{{ asset('images/logo.svg') }}" alt="Master Matrimony Logo" onerror="this.style.display='none'" style="width: 50px; height: 50px; object-fit: contain; border-radius: 50%; display: block;">
             </div>
             <div class="brand-info">
                 <h1 id="brandTitle">மாஸ்டர் மணமாலை</h1>

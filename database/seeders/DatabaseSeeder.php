@@ -46,7 +46,7 @@ class DatabaseSeeder extends Seeder
                 ['name_en' => $adminEmail, 'sort_order' => 2]
             );
             MatrimonyMasterOption::updateOrCreate(
-                ['category' => 'admin_auth', 'name_ta' => 'admin_password_hash'],
+                ['category' => 'admin_auth', 'name_ta' => 'admin_password'],
                 ['name_en' => Hash::make($adminPassword), 'sort_order' => 3]
             );
         }

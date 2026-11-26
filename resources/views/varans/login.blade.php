@@ -196,8 +196,8 @@
                 <button type="button" class="btn-lang" id="btnEn" onclick="switchLoginLang('en')">English</button>
             </div>
 
-            <div class="emblem-symbol" style="background: transparent; box-shadow: none; width: 64px; height: 64px; margin: 0 auto 10px; padding: 0;">
-                <img src="{{ asset('images/logo.svg') }}" alt="Master Matrimony Logo" onerror="this.src='/images/logo.svg'" style="width: 64px; height: 64px; object-fit: contain; border-radius: 50%; display: block; margin: 0 auto;">
+            <div class="emblem-symbol" style="background: transparent; box-shadow: none; width: 68px; height: 68px; margin: 0 auto 10px; padding: 0;">
+                <img src="{{ asset('images/logo.svg') }}" alt="Master Matrimony Logo" onerror="this.style.display='none'" style="width: 68px; height: 68px; object-fit: contain; border-radius: 50%; display: block; margin: 0 auto;">
             </div>
             <h1 class="login-title" id="txt_title">மாஸ்டர் மணமாலை</h1>
             <div class="login-sub" id="txt_sub">Master Matrimony - கட்டுப்பாட்டு முகப்பு</div>

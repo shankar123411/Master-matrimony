@@ -1,18 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
   <defs>
-    <linearGradient id="mcGold" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#fde68a"/>
-      <stop offset="50%" stop-color="#f59e0b"/>
+    <radialGradient id="mmBg" cx="40%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#be123c"/>
+      <stop offset="55%" stop-color="#881337"/>
+      <stop offset="100%" stop-color="#3b0414"/>
+    </radialGradient>
+    <linearGradient id="mmGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="35%" stop-color="#fbbf24"/>
+      <stop offset="70%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#92400e"/>
+    </linearGradient>
+    <linearGradient id="mmGoldLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fffbeb"/>
+      <stop offset="50%" stop-color="#fcd34d"/>
       <stop offset="100%" stop-color="#b45309"/>
     </linearGradient>
-    <linearGradient id="mcCrimson" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#9f1239"/>
-      <stop offset="100%" stop-color="#4c0519"/>
-    </linearGradient>
   </defs>
-  <circle cx="60" cy="60" r="56" fill="url(#mcCrimson)" stroke="url(#mcGold)" stroke-width="4"/>
-  <circle cx="60" cy="60" r="48" fill="none" stroke="url(#mcGold)" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.85"/>
-  <path d="M32 82 V38 L60 64 L88 38 V82" fill="none" stroke="url(#mcGold)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="60" cy="24" r="4" fill="#fde68a"/>
+
+  <!-- Outer Royal Badge Ring -->
+  <circle cx="64" cy="64" r="60" fill="url(#mmBg)" stroke="url(#mmGold)" stroke-width="3.5"/>
+  <!-- Inner Filigree Ring -->
+  <circle cx="64" cy="64" r="52" fill="none" stroke="url(#mmGold)" stroke-width="1.2" stroke-dasharray="3 3" opacity="0.85"/>
+  <circle cx="64" cy="64" r="47" fill="none" stroke="url(#mmGold)" stroke-width="0.9" opacity="0.5"/>
+
+  <!-- Top Crown Diamond & Dots -->
+  <path d="M64 17 L68 23 L64 29 L60 23 Z" fill="url(#mmGoldLight)"/>
+  <circle cx="51" cy="24" r="1.8" fill="#fde68a" opacity="0.9"/>
+  <circle cx="77" cy="24" r="1.8" fill="#fde68a" opacity="0.9"/>
+
+  <!-- Aesthetic Royal Serif 'M' Monogram -->
+  <path d="M34 86 L34 45 C34 42 36 40 39 40 L43 40 C45 40 46.5 41.2 47.6 43 L64 69 L80.4 43 C81.5 41.2 83 40 85 40 L89 40 C92 40 94 42 94 45 L94 86"
+        fill="none" stroke="url(#mmGoldLight)" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Serif Foot Accents -->
+  <line x1="28" y1="86" x2="42" y2="86" stroke="url(#mmGold)" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="86" y1="86" x2="100" y2="86" stroke="url(#mmGold)" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- Subtle Bottom Lotus/Heart Accent -->
+  <path d="M64 96 C60 92 55 92 55 96 C55 100 64 105 64 105 C64 105 73 100 73 96 C73 92 68 92 64 96 Z"
+        fill="url(#mmGold)" opacity="0.9"/>
 </svg>

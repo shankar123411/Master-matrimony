@@ -1409,7 +1409,7 @@
                     <div class="print-header">
                         <!-- Left: Logo & Varan Avatar Badge Underneath -->
                         <div class="header-left">
-                            <img src="{{ $logoSrc }}" class="header-logo" alt="Logo" onerror="this.src='/images/logo.svg'">
+                            <img src="{{ $logoSrc }}" class="header-logo" alt="Logo" onerror="this.style.display='none'">
 
                             <div class="header-varan-badge">
                                 <img src="{{ $varanAvatarSrc }}" class="header-avatar-img" alt="{{ $varanBadgeLabel }}" onerror="this.src='{{ $isMale ? '/images/avatar_groom.png' : '/images/avatar_bride.png' }}'">
@@ -1432,7 +1432,7 @@
 
                         <!-- Right: Official Brand Crest -->
                         <div class="header-right" style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding: 6px;">
-                            <img src="{{ $logoSrc }}" class="couple-photo" alt="Master Matrimony Crest" onerror="this.src='/images/logo.svg'" style="object-fit: contain; max-height: 92px;">
+                            <img src="{{ $logoSrc }}" class="couple-photo" alt="Master Matrimony Crest" onerror="this.style.display='none'" style="object-fit: contain; max-height: 92px;">
                         </div>
                     </div>
 

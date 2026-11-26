@@ -20,4 +20,4 @@ php artisan optimize:clear
 
 PORT_TO_USE="${PORT:-10000}"
 echo "Starting Master Matrimony server on 0.0.0.0:${PORT_TO_USE}"
-exec php -S "0.0.0.0:${PORT_TO_USE}" -t public public/index.php
+exec php -S "0.0.0.0:${PORT_TO_USE}" -t public
