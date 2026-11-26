@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="460" height="460">
+    <defs>
+        <!-- Circular Path for Curved Text (Top Arc) -->
+        <path id="circleTextTop" d="M 75,250 A 175,175 0 0,1 425,250" fill="none" />
+        <!-- Circular Path for Curved Text (Bottom Arc) -->
+        <path id="circleTextBottom" d="M 425,250 A 175,175 0 0,1 75,250" fill="none" />
+    </defs>
+
+    <!-- Celestial Saturn Ring (Tilted Orbit Ellipse) -->
+    <g transform="rotate(-24 250 250)" stroke="#c2410c" stroke-width="1.8" fill="none" opacity="0.6">
+        <ellipse cx="250" cy="250" rx="235" ry="68" stroke-dasharray="8 5" />
+        <ellipse cx="250" cy="250" rx="242" ry="72" stroke-width="1" />
+        <!-- Orbit Sparkle Stars -->
+        <polygon points="20,250 24,244 30,250 24,256" fill="#c2410c" />
+        <polygon points="480,250 476,244 470,250 476,256" fill="#c2410c" />
+        <polygon points="120,210 123,205 128,210 123,215" fill="#c2410c" />
+        <polygon points="380,290 383,285 388,290 383,295" fill="#c2410c" />
+    </g>
+
+    <!-- Concentric Double Emblem Circles -->
+    <circle cx="250" cy="250" r="215" stroke="#b45309" stroke-width="2.2" fill="none" />
+    <circle cx="250" cy="250" r="207" stroke="#b45309" stroke-width="1.2" stroke-dasharray="4 3" fill="none" />
+    <circle cx="250" cy="250" r="145" stroke="#b45309" stroke-width="1.8" fill="none" />
+    <circle cx="250" cy="250" r="139" stroke="#b45309" stroke-width="1" stroke-dasharray="3 3" fill="none" />
+
+    <!-- Top Arc Tamil Text: ஈரோடு ஸ்ரீ அங்காளம்மன் செங்குந்தர் திருமண தகவல் மையம் -->
+    <text font-family="'Mukta Malar', 'Noto Sans Tamil', Arial, sans-serif" font-size="16.5" font-weight="900" fill="#9a3412" letter-spacing="1.2px">
+        <textPath href="#circleTextTop" startOffset="50%" text-anchor="middle">
+            ஈரோடு ஸ்ரீ அங்காளம்மன் செங்குந்தர் திருமண தகவல் மையம்
+        </textPath>
+    </text>
+
+    <!-- Bottom Arc Contact Text: Cell: 9080849042 • 9443946541 -->
+    <text font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="14.5" font-weight="800" fill="#9a3412" letter-spacing="1.5px">
+        <textPath href="#circleTextBottom" startOffset="50%" text-anchor="middle">
+            ★ CELL: 90808 49042 • 94439 46541 ★
+        </textPath>
+    </text>
+
+    <!-- Center Divine Kalasam / Deepam Icon & Founder Info -->
+    <g transform="translate(250 205)" stroke="#b45309" fill="none">
+        <!-- Akhanda Deepam Flame -->
+        <path d="M 0,-40 C 12,-25 10,-12 0,0 C -10,-12 -12,-25 0,-40 Z" fill="#f59e0b" stroke="#b45309" stroke-width="1.5" />
+        <circle cx="0" cy="-20" r="4" fill="#ef4444" stroke="none" />
+        <!-- Lamp Base -->
+        <path d="M -24,0 C -20,12 20,12 24,0 Z" fill="#fbbf24" stroke="#b45309" stroke-width="1.5" />
+        <path d="M -8,12 L -14,24 L 14,24 L 8,12 Z" fill="#f59e0b" stroke="#b45309" stroke-width="1.5" />
+        <line x1="-22" y1="24" x2="22" y2="24" stroke="#b45309" stroke-width="2" />
+    </g>
+
+    <!-- Center Founder Name & Location -->
+    <text x="250" y="260" text-anchor="middle" font-family="'Mukta Malar', 'Noto Sans Tamil', Arial, sans-serif" font-size="18" font-weight="900" fill="#78350f" letter-spacing="0.5px">
+        மு. ஆறுமுகம்
+    </text>
+    <text x="250" y="280" text-anchor="middle" font-family="'Mukta Malar', 'Noto Sans Tamil', Arial, sans-serif" font-size="14" font-weight="800" fill="#92400e">
+        ஈரோடு
+    </text>
+    <text x="250" y="300" text-anchor="middle" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="15" font-weight="900" fill="#b45309" letter-spacing="1px">
+        90808 49042
+    </text>
+
+    <!-- Side Floral Flourishes -->
+    <circle cx="105" cy="250" r="4" fill="#b45309" />
+    <circle cx="395" cy="250" r="4" fill="#b45309" />
+</svg>

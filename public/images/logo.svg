@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="mcGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+    <linearGradient id="mcCrimson" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9f1239"/>
+      <stop offset="100%" stop-color="#4c0519"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="56" fill="url(#mcCrimson)" stroke="url(#mcGold)" stroke-width="4"/>
+  <circle cx="60" cy="60" r="48" fill="none" stroke="url(#mcGold)" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.85"/>
+  <path d="M32 82 V38 L60 64 L88 38 V82" fill="none" stroke="url(#mcGold)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="60" cy="24" r="4" fill="#fde68a"/>
+</svg>
